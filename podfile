@@ -3,9 +3,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 target 'EnglishTool'do
 use_frameworks!
 pod 'AFNetworking'
-pod 'MJExtension', '~>3.0.13'
-pod 'MJRefresh'
-pod 'SDWebImage'
 pod 'WHC_ModelSqliteKit'
 pod 'SVProgressHUD'
+pod 'IQKeyboardManager'
 end

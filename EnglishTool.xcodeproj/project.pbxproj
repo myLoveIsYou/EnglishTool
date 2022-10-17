@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B875544F4CB9AE796BBA7DC3 /* Pods_EnglishTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47B6501B7E81B1C5FEC7A652 /* Pods_EnglishTool.framework */; };
 		CD6FF14728F5636B0013266F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF14628F5636B0013266F /* AppDelegate.m */; };
 		CD6FF15028F5636B0013266F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD6FF14E28F5636B0013266F /* Main.storyboard */; };
 		CD6FF15228F5636D0013266F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD6FF15128F5636D0013266F /* Assets.xcassets */; };
@@ -15,6 +16,15 @@
 		CD6FF16228F5636D0013266F /* EnglishToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF16128F5636D0013266F /* EnglishToolTests.m */; };
 		CD6FF16C28F5636D0013266F /* EnglishToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF16B28F5636D0013266F /* EnglishToolUITests.m */; };
 		CD6FF16E28F5636D0013266F /* EnglishToolUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF16D28F5636D0013266F /* EnglishToolUITestsLaunchTests.m */; };
+		CD6FF17F28FCFD7A0013266F /* EnglishTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF17E28FCFD7A0013266F /* EnglishTabViewController.m */; };
+		CD6FF18328FCFD990013266F /* EnglishHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF18128FCFD990013266F /* EnglishHomeViewController.m */; };
+		CD6FF18428FCFD990013266F /* EnglishHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD6FF18228FCFD990013266F /* EnglishHomeViewController.xib */; };
+		CD6FF18828FCFDAF0013266F /* EnglishRecoderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF18628FCFDAF0013266F /* EnglishRecoderViewController.m */; };
+		CD6FF18928FCFDAF0013266F /* EnglishRecoderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD6FF18728FCFDAF0013266F /* EnglishRecoderViewController.xib */; };
+		CD6FF18D28FCFDC40013266F /* EnglishSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF18B28FCFDC40013266F /* EnglishSettingViewController.m */; };
+		CD6FF18E28FCFDC40013266F /* EnglishSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD6FF18C28FCFDC40013266F /* EnglishSettingViewController.xib */; };
+		CD6FF19228FD4FFC0013266F /* maikefeng.png in Resources */ = {isa = PBXBuildFile; fileRef = CD6FF19128FD4FFC0013266F /* maikefeng.png */; };
+		CD6FF19428FD593D0013266F /* tubiaoji_tupianshibie.png in Resources */ = {isa = PBXBuildFile; fileRef = CD6FF19328FD593C0013266F /* tubiaoji_tupianshibie.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		47B6501B7E81B1C5FEC7A652 /* Pods_EnglishTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EnglishTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		539EF1A23C32B76F2B21DDD7 /* Pods-EnglishTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnglishTool.release.xcconfig"; path = "Target Support Files/Pods-EnglishTool/Pods-EnglishTool.release.xcconfig"; sourceTree = "<group>"; };
+		5C736E396F1E854A9FFDBD2B /* Pods-EnglishTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnglishTool.debug.xcconfig"; path = "Target Support Files/Pods-EnglishTool/Pods-EnglishTool.debug.xcconfig"; sourceTree = "<group>"; };
 		CD6FF14228F5636B0013266F /* EnglishTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnglishTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD6FF14528F5636B0013266F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CD6FF14628F5636B0013266F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -48,6 +61,19 @@
 		CD6FF16728F5636D0013266F /* EnglishToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnglishToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD6FF16B28F5636D0013266F /* EnglishToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnglishToolUITests.m; sourceTree = "<group>"; };
 		CD6FF16D28F5636D0013266F /* EnglishToolUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnglishToolUITestsLaunchTests.m; sourceTree = "<group>"; };
+		CD6FF17D28FCFD7A0013266F /* EnglishTabViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnglishTabViewController.h; sourceTree = "<group>"; };
+		CD6FF17E28FCFD7A0013266F /* EnglishTabViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnglishTabViewController.m; sourceTree = "<group>"; };
+		CD6FF18028FCFD990013266F /* EnglishHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnglishHomeViewController.h; sourceTree = "<group>"; };
+		CD6FF18128FCFD990013266F /* EnglishHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnglishHomeViewController.m; sourceTree = "<group>"; };
+		CD6FF18228FCFD990013266F /* EnglishHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EnglishHomeViewController.xib; sourceTree = "<group>"; };
+		CD6FF18528FCFDAF0013266F /* EnglishRecoderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnglishRecoderViewController.h; sourceTree = "<group>"; };
+		CD6FF18628FCFDAF0013266F /* EnglishRecoderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnglishRecoderViewController.m; sourceTree = "<group>"; };
+		CD6FF18728FCFDAF0013266F /* EnglishRecoderViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EnglishRecoderViewController.xib; sourceTree = "<group>"; };
+		CD6FF18A28FCFDC40013266F /* EnglishSettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnglishSettingViewController.h; sourceTree = "<group>"; };
+		CD6FF18B28FCFDC40013266F /* EnglishSettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnglishSettingViewController.m; sourceTree = "<group>"; };
+		CD6FF18C28FCFDC40013266F /* EnglishSettingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EnglishSettingViewController.xib; sourceTree = "<group>"; };
+		CD6FF19128FD4FFC0013266F /* maikefeng.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maikefeng.png; sourceTree = "<group>"; };
+		CD6FF19328FD593C0013266F /* tubiaoji_tupianshibie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tubiaoji_tupianshibie.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B875544F4CB9AE796BBA7DC3 /* Pods_EnglishTool.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,13 +102,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D2194114943C3C5271B5425 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C736E396F1E854A9FFDBD2B /* Pods-EnglishTool.debug.xcconfig */,
+				539EF1A23C32B76F2B21DDD7 /* Pods-EnglishTool.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5EFC5ABED9962A79938CB845 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47B6501B7E81B1C5FEC7A652 /* Pods_EnglishTool.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CD6FF13928F5636B0013266F = {
 			isa = PBXGroup;
 			children = (
+				CD6FF17A28FCFB5F0013266F /* Home */,
+				CD6FF17B28FCFB6F0013266F /* Recoder */,
+				CD6FF17C28FCFB860013266F /* Setting */,
 				CD6FF14428F5636B0013266F /* EnglishTool */,
 				CD6FF16028F5636D0013266F /* EnglishToolTests */,
 				CD6FF16A28F5636D0013266F /* EnglishToolUITests */,
 				CD6FF14328F5636B0013266F /* Products */,
+				3D2194114943C3C5271B5425 /* Pods */,
+				5EFC5ABED9962A79938CB845 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +150,8 @@
 			children = (
 				CD6FF14528F5636B0013266F /* AppDelegate.h */,
 				CD6FF14628F5636B0013266F /* AppDelegate.m */,
+				CD6FF17D28FCFD7A0013266F /* EnglishTabViewController.h */,
+				CD6FF17E28FCFD7A0013266F /* EnglishTabViewController.m */,
 				CD6FF14E28F5636B0013266F /* Main.storyboard */,
 				CD6FF15128F5636D0013266F /* Assets.xcassets */,
 				CD6FF15328F5636D0013266F /* LaunchScreen.storyboard */,
@@ -126,6 +178,38 @@
 			path = EnglishToolUITests;
 			sourceTree = "<group>";
 		};
+		CD6FF17A28FCFB5F0013266F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CD6FF18028FCFD990013266F /* EnglishHomeViewController.h */,
+				CD6FF18128FCFD990013266F /* EnglishHomeViewController.m */,
+				CD6FF19328FD593C0013266F /* tubiaoji_tupianshibie.png */,
+				CD6FF19128FD4FFC0013266F /* maikefeng.png */,
+				CD6FF18228FCFD990013266F /* EnglishHomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CD6FF17B28FCFB6F0013266F /* Recoder */ = {
+			isa = PBXGroup;
+			children = (
+				CD6FF18528FCFDAF0013266F /* EnglishRecoderViewController.h */,
+				CD6FF18628FCFDAF0013266F /* EnglishRecoderViewController.m */,
+				CD6FF18728FCFDAF0013266F /* EnglishRecoderViewController.xib */,
+			);
+			path = Recoder;
+			sourceTree = "<group>";
+		};
+		CD6FF17C28FCFB860013266F /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				CD6FF18A28FCFDC40013266F /* EnglishSettingViewController.h */,
+				CD6FF18B28FCFDC40013266F /* EnglishSettingViewController.m */,
+				CD6FF18C28FCFDC40013266F /* EnglishSettingViewController.xib */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -133,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD6FF17128F5636D0013266F /* Build configuration list for PBXNativeTarget "EnglishTool" */;
 			buildPhases = (
+				CCA45DDD930B958F6E9409E0 /* [CP] Check Pods Manifest.lock */,
 				CD6FF13E28F5636B0013266F /* Sources */,
 				CD6FF13F28F5636B0013266F /* Frameworks */,
 				CD6FF14028F5636B0013266F /* Resources */,
+				77BBDCCF25B02E22BCA872ED /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -229,9 +315,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD6FF18928FCFDAF0013266F /* EnglishRecoderViewController.xib in Resources */,
+				CD6FF19228FD4FFC0013266F /* maikefeng.png in Resources */,
+				CD6FF18428FCFD990013266F /* EnglishHomeViewController.xib in Resources */,
 				CD6FF15528F5636D0013266F /* LaunchScreen.storyboard in Resources */,
 				CD6FF15228F5636D0013266F /* Assets.xcassets in Resources */,
+				CD6FF18E28FCFDC40013266F /* EnglishSettingViewController.xib in Resources */,
 				CD6FF15028F5636B0013266F /* Main.storyboard in Resources */,
+				CD6FF19428FD593D0013266F /* tubiaoji_tupianshibie.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,12 +342,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		77BBDCCF25B02E22BCA872ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EnglishTool/Pods-EnglishTool-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EnglishTool/Pods-EnglishTool-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EnglishTool/Pods-EnglishTool-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCA45DDD930B958F6E9409E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EnglishTool-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CD6FF13E28F5636B0013266F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD6FF18D28FCFDC40013266F /* EnglishSettingViewController.m in Sources */,
+				CD6FF18328FCFD990013266F /* EnglishHomeViewController.m in Sources */,
 				CD6FF14728F5636B0013266F /* AppDelegate.m in Sources */,
+				CD6FF17F28FCFD7A0013266F /* EnglishTabViewController.m in Sources */,
+				CD6FF18828FCFDAF0013266F /* EnglishRecoderViewController.m in Sources */,
 				CD6FF15828F5636D0013266F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -364,7 +501,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -417,7 +554,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -427,6 +564,7 @@
 		};
 		CD6FF17228F5636D0013266F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C736E396F1E854A9FFDBD2B /* Pods-EnglishTool.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -439,6 +577,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -447,12 +586,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.english.EnglishTool.EnglishTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		CD6FF17328F5636D0013266F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 539EF1A23C32B76F2B21DDD7 /* Pods-EnglishTool.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -465,6 +605,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,7 +614,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.english.EnglishTool.EnglishTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
