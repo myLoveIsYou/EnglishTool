@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		B875544F4CB9AE796BBA7DC3 /* Pods_EnglishTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47B6501B7E81B1C5FEC7A652 /* Pods_EnglishTool.framework */; };
+		CD63221328FD6FB5005771CD /* EnglishTranslateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD63221128FD6FB5005771CD /* EnglishTranslateViewController.m */; };
+		CD63221428FD6FB5005771CD /* EnglishTranslateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD63221228FD6FB5005771CD /* EnglishTranslateViewController.xib */; };
 		CD6FF14728F5636B0013266F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF14628F5636B0013266F /* AppDelegate.m */; };
 		CD6FF15028F5636B0013266F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD6FF14E28F5636B0013266F /* Main.storyboard */; };
 		CD6FF15228F5636D0013266F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD6FF15128F5636D0013266F /* Assets.xcassets */; };
@@ -48,6 +50,9 @@
 		47B6501B7E81B1C5FEC7A652 /* Pods_EnglishTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EnglishTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		539EF1A23C32B76F2B21DDD7 /* Pods-EnglishTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnglishTool.release.xcconfig"; path = "Target Support Files/Pods-EnglishTool/Pods-EnglishTool.release.xcconfig"; sourceTree = "<group>"; };
 		5C736E396F1E854A9FFDBD2B /* Pods-EnglishTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnglishTool.debug.xcconfig"; path = "Target Support Files/Pods-EnglishTool/Pods-EnglishTool.debug.xcconfig"; sourceTree = "<group>"; };
+		CD63221028FD6FB5005771CD /* EnglishTranslateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnglishTranslateViewController.h; sourceTree = "<group>"; };
+		CD63221128FD6FB5005771CD /* EnglishTranslateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnglishTranslateViewController.m; sourceTree = "<group>"; };
+		CD63221228FD6FB5005771CD /* EnglishTranslateViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EnglishTranslateViewController.xib; sourceTree = "<group>"; };
 		CD6FF14228F5636B0013266F /* EnglishTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnglishTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD6FF14528F5636B0013266F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CD6FF14628F5636B0013266F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -108,7 +113,6 @@
 				5C736E396F1E854A9FFDBD2B /* Pods-EnglishTool.debug.xcconfig */,
 				539EF1A23C32B76F2B21DDD7 /* Pods-EnglishTool.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -186,6 +190,9 @@
 				CD6FF19328FD593C0013266F /* tubiaoji_tupianshibie.png */,
 				CD6FF19128FD4FFC0013266F /* maikefeng.png */,
 				CD6FF18228FCFD990013266F /* EnglishHomeViewController.xib */,
+				CD63221028FD6FB5005771CD /* EnglishTranslateViewController.h */,
+				CD63221128FD6FB5005771CD /* EnglishTranslateViewController.m */,
+				CD63221228FD6FB5005771CD /* EnglishTranslateViewController.xib */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -315,6 +322,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD63221428FD6FB5005771CD /* EnglishTranslateViewController.xib in Resources */,
 				CD6FF18928FCFDAF0013266F /* EnglishRecoderViewController.xib in Resources */,
 				CD6FF19228FD4FFC0013266F /* maikefeng.png in Resources */,
 				CD6FF18428FCFD990013266F /* EnglishHomeViewController.xib in Resources */,
@@ -392,6 +400,7 @@
 				CD6FF18D28FCFDC40013266F /* EnglishSettingViewController.m in Sources */,
 				CD6FF18328FCFD990013266F /* EnglishHomeViewController.m in Sources */,
 				CD6FF14728F5636B0013266F /* AppDelegate.m in Sources */,
+				CD63221328FD6FB5005771CD /* EnglishTranslateViewController.m in Sources */,
 				CD6FF17F28FCFD7A0013266F /* EnglishTabViewController.m in Sources */,
 				CD6FF18828FCFDAF0013266F /* EnglishRecoderViewController.m in Sources */,
 				CD6FF15828F5636D0013266F /* main.m in Sources */,

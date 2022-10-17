@@ -16,6 +16,7 @@
 @implementation EnglishHomeViewController
 
 - (void)viewDidLoad {
+  // 首页
     [super viewDidLoad];
     [self createUI];
      
@@ -30,6 +31,8 @@
 }
 // 翻译按钮
 - (IBAction)ftbGoTranslate:(UIButton *)sender {
+    
+    
 }
 - (BOOL)textViewShouldBeginEditing:(UITextView *)textView{
     textView.text =nil;
