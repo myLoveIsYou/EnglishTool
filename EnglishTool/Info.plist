@@ -7,5 +7,18 @@
 		<key>UIApplicationSupportsMultipleScenes</key>
 		<false/>
 	</dict>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>允许打开麦克风，用于转换文字</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>App 需要您的同意,才能访问相册,用于分享图片使用</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>是否允许App访问相册，用来获取图片进行分享</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>心情日记添加图片，用来进行图片上传功能</string>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <true/>
+    </dict>
 </dict>
 </plist>
