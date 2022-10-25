@@ -7,6 +7,7 @@
 
 #import "EnglishHomeViewController.h"
 #import "IFlyMSC/IFlyMSC.h"
+#import "EnglishImageOCRTextViewController.h"
 //#import "IATConfig.h"
 #define PUTONGHUA   @"mandarin"
 #define YUEYU       @"cantonese"
@@ -20,6 +21,7 @@
 @property (nonatomic, strong) IFlySpeechRecognizer *iFlySpeechRecognizer;//Recognition conrol without view
 @property (nonatomic, strong) IFlyRecognizerView *iflyRecognizerView;
 @property (weak, nonatomic) IBOutlet UITextView *textEnterTextView;
+@property(nonatomic,copy)NSString*soundStr;
 //5cf4f864
 @end
 
@@ -29,6 +31,7 @@
   // 首页
     [super viewDidLoad];
     [self createUI];
+    self.soundStr=@"";
    
      
 }
@@ -90,16 +93,73 @@
 
 
 - (IBAction)imageSBBtyClick:(UIButton *)sender {
+    EnglishImageOCRTextViewController *vc = [[EnglishImageOCRTextViewController alloc]init];
+    [self.navigationController pushViewController:vc animated:YES];
+    
 }
 
 //IFlyRecognizerViewDelegate---------------------
 -(void)onCompleted:(IFlySpeechError *)error
 {
-    
+    self.textEnterTextView.text = self.soundStr;
+    self.soundStr = nil;
 }
 -(void)onResult:(NSArray *)resultArray isLast:(BOOL)isLast
 {
-    
+    NSString *Str = @"";
+    if (isLast&&resultArray.count>0) {
+        NSDictionary *dic = resultArray[0];
+        if ([dic allKeys].count>0) {
+            NSArray *keyArray = [dic allKeys];
+            NSString *nsDicStr = keyArray[0];
+            NSData *jsonData = [nsDicStr dataUsingEncoding:NSUTF8StringEncoding];
+            NSDictionary *nsDic =[NSJSONSerialization JSONObjectWithData:jsonData options:NSJSONReadingMutableContainers error:nil];
+            NSArray *wsArray = nsDic[@"ws"];
+            if (wsArray.count>0) {
+                for (NSDictionary *cwDic in wsArray) {
+                    NSArray *cwArray = cwDic[@"cw"];
+                    NSDictionary *textDic = cwArray[0];
+                    NSString *stext = textDic[@"w"];
+                    Str = [Str stringByAppendingString:stext];
+                }
+            }else{
+                
+                return;
+            }
+        }
+        else{
+            return;
+        }
+    }
+    else{
+        if (resultArray.count>0) {
+            Str = self.soundStr;
+            NSDictionary *dic = resultArray[0];
+            if ([dic allKeys].count>0) {
+                NSArray *keyArray = [dic allKeys];
+                NSString *nsDicStr = keyArray[0];
+                NSData *jsonData = [nsDicStr dataUsingEncoding:NSUTF8StringEncoding];
+                NSDictionary *nsDic =[NSJSONSerialization JSONObjectWithData:jsonData options:NSJSONReadingMutableContainers error:nil];
+                NSArray *wsArray = nsDic[@"ws"];
+                if (wsArray.count>0) {
+                    for (NSDictionary *cwDic in wsArray) {
+                        NSArray *cwArray = cwDic[@"cw"];
+                        NSDictionary *textDic = cwArray[0];
+                        NSString *stext = textDic[@"w"];
+                        Str = [Str stringByAppendingString:stext];
+                    }
+                }else{
+                    
+                    return;
+                }
+            }
+            else{
+                return;
+            }
+        }
+    }
+    NSLog(@"%@------------",Str);
+    self.soundStr = [ self.soundStr stringByAppendingString:Str];
 }
 
 //IFlySpeechRecognizerDelegate--------------------

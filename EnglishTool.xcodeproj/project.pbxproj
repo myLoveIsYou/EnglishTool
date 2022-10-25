@@ -42,6 +42,9 @@
 		CD6FF19228FD4FFC0013266F /* maikefeng.png in Resources */ = {isa = PBXBuildFile; fileRef = CD6FF19128FD4FFC0013266F /* maikefeng.png */; };
 		CD6FF19428FD593D0013266F /* tubiaoji_tupianshibie.png in Resources */ = {isa = PBXBuildFile; fileRef = CD6FF19328FD593C0013266F /* tubiaoji_tupianshibie.png */; };
 		CD932A94290635E800972053 /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD932A93290635E800972053 /* iflyMSC.framework */; };
+		CD932A9829078E2400972053 /* EnglishImageOCRTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD932A9629078E2400972053 /* EnglishImageOCRTextViewController.m */; };
+		CD932A9929078E2400972053 /* EnglishImageOCRTextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD932A9729078E2400972053 /* EnglishImageOCRTextViewController.xib */; };
+		CDC5E0F62907CAAF00762CBB /* EnglishHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC5E0F52907CAAF00762CBB /* EnglishHomeModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,6 +112,11 @@
 		CD6FF19128FD4FFC0013266F /* maikefeng.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maikefeng.png; sourceTree = "<group>"; };
 		CD6FF19328FD593C0013266F /* tubiaoji_tupianshibie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tubiaoji_tupianshibie.png; sourceTree = "<group>"; };
 		CD932A93290635E800972053 /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
+		CD932A9529078E2400972053 /* EnglishImageOCRTextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnglishImageOCRTextViewController.h; sourceTree = "<group>"; };
+		CD932A9629078E2400972053 /* EnglishImageOCRTextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnglishImageOCRTextViewController.m; sourceTree = "<group>"; };
+		CD932A9729078E2400972053 /* EnglishImageOCRTextViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EnglishImageOCRTextViewController.xib; sourceTree = "<group>"; };
+		CDC5E0F42907CAAF00762CBB /* EnglishHomeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnglishHomeModel.h; sourceTree = "<group>"; };
+		CDC5E0F52907CAAF00762CBB /* EnglishHomeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnglishHomeModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -255,12 +263,8 @@
 		CD6FF17A28FCFB5F0013266F /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				CD6FF18028FCFD990013266F /* EnglishHomeViewController.h */,
-				CD6FF18128FCFD990013266F /* EnglishHomeViewController.m */,
-				CD6FF18228FCFD990013266F /* EnglishHomeViewController.xib */,
-				CD63221028FD6FB5005771CD /* EnglishTranslateViewController.h */,
-				CD63221128FD6FB5005771CD /* EnglishTranslateViewController.m */,
-				CD63221228FD6FB5005771CD /* EnglishTranslateViewController.xib */,
+				CDC5E0F22907CA6D00762CBB /* VC */,
+				CDC5E0F32907CA8800762CBB /* model */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -283,6 +287,31 @@
 				CD6FF18C28FCFDC40013266F /* EnglishSettingViewController.xib */,
 			);
 			path = Setting;
+			sourceTree = "<group>";
+		};
+		CDC5E0F22907CA6D00762CBB /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				CD6FF18028FCFD990013266F /* EnglishHomeViewController.h */,
+				CD6FF18128FCFD990013266F /* EnglishHomeViewController.m */,
+				CD6FF18228FCFD990013266F /* EnglishHomeViewController.xib */,
+				CD932A9529078E2400972053 /* EnglishImageOCRTextViewController.h */,
+				CD932A9629078E2400972053 /* EnglishImageOCRTextViewController.m */,
+				CD932A9729078E2400972053 /* EnglishImageOCRTextViewController.xib */,
+				CD63221028FD6FB5005771CD /* EnglishTranslateViewController.h */,
+				CD63221128FD6FB5005771CD /* EnglishTranslateViewController.m */,
+				CD63221228FD6FB5005771CD /* EnglishTranslateViewController.xib */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		CDC5E0F32907CA8800762CBB /* model */ = {
+			isa = PBXGroup;
+			children = (
+				CDC5E0F42907CAAF00762CBB /* EnglishHomeModel.h */,
+				CDC5E0F52907CAAF00762CBB /* EnglishHomeModel.m */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -395,6 +424,7 @@
 				CD6FF19228FD4FFC0013266F /* maikefeng.png in Resources */,
 				CD6FF18428FCFD990013266F /* EnglishHomeViewController.xib in Resources */,
 				CD6FF15528F5636D0013266F /* LaunchScreen.storyboard in Resources */,
+				CD932A9929078E2400972053 /* EnglishImageOCRTextViewController.xib in Resources */,
 				CD6FF15228F5636D0013266F /* Assets.xcassets in Resources */,
 				CD6FF18E28FCFDC40013266F /* EnglishSettingViewController.xib in Resources */,
 				CD6FF15028F5636B0013266F /* Main.storyboard in Resources */,
@@ -468,7 +498,9 @@
 				CD6FF18D28FCFDC40013266F /* EnglishSettingViewController.m in Sources */,
 				CD6FF18328FCFD990013266F /* EnglishHomeViewController.m in Sources */,
 				CD6FF14728F5636B0013266F /* AppDelegate.m in Sources */,
+				CD932A9829078E2400972053 /* EnglishImageOCRTextViewController.m in Sources */,
 				CD63221328FD6FB5005771CD /* EnglishTranslateViewController.m in Sources */,
+				CDC5E0F62907CAAF00762CBB /* EnglishHomeModel.m in Sources */,
 				CD6FF17F28FCFD7A0013266F /* EnglishTabViewController.m in Sources */,
 				CD6FF18828FCFDAF0013266F /* EnglishRecoderViewController.m in Sources */,
 				CD6FF15828F5636D0013266F /* main.m in Sources */,

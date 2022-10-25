@@ -6,4 +6,6 @@ pod 'AFNetworking'
 pod 'WHC_ModelSqliteKit'
 pod 'SVProgressHUD'
 pod 'IQKeyboardManager'
+pod 'YYModel'
+pod 'YYKit'
 end
