@@ -10,7 +10,6 @@
 		B875544F4CB9AE796BBA7DC3 /* Pods_EnglishTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47B6501B7E81B1C5FEC7A652 /* Pods_EnglishTool.framework */; };
 		CD63221328FD6FB5005771CD /* EnglishTranslateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD63221128FD6FB5005771CD /* EnglishTranslateViewController.m */; };
 		CD63221428FD6FB5005771CD /* EnglishTranslateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD63221228FD6FB5005771CD /* EnglishTranslateViewController.xib */; };
-		CD63221728FE80F0005771CD /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD63221628FE80F0005771CD /* iflyMSC.framework */; };
 		CD63221928FE8104005771CD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD63221828FE8104005771CD /* CoreLocation.framework */; };
 		CD63221B28FE810B005771CD /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CD63221A28FE810B005771CD /* libz.tbd */; };
 		CD63221D28FE811B005771CD /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CD63221C28FE811B005771CD /* libc++.tbd */; };
@@ -42,6 +41,7 @@
 		CD6FF18E28FCFDC40013266F /* EnglishSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD6FF18C28FCFDC40013266F /* EnglishSettingViewController.xib */; };
 		CD6FF19228FD4FFC0013266F /* maikefeng.png in Resources */ = {isa = PBXBuildFile; fileRef = CD6FF19128FD4FFC0013266F /* maikefeng.png */; };
 		CD6FF19428FD593D0013266F /* tubiaoji_tupianshibie.png in Resources */ = {isa = PBXBuildFile; fileRef = CD6FF19328FD593C0013266F /* tubiaoji_tupianshibie.png */; };
+		CD932A94290635E800972053 /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD932A93290635E800972053 /* iflyMSC.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,7 +68,6 @@
 		CD63221028FD6FB5005771CD /* EnglishTranslateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnglishTranslateViewController.h; sourceTree = "<group>"; };
 		CD63221128FD6FB5005771CD /* EnglishTranslateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnglishTranslateViewController.m; sourceTree = "<group>"; };
 		CD63221228FD6FB5005771CD /* EnglishTranslateViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EnglishTranslateViewController.xib; sourceTree = "<group>"; };
-		CD63221628FE80F0005771CD /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
 		CD63221828FE8104005771CD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		CD63221A28FE810B005771CD /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		CD63221C28FE811B005771CD /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
@@ -109,6 +108,7 @@
 		CD6FF18C28FCFDC40013266F /* EnglishSettingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EnglishSettingViewController.xib; sourceTree = "<group>"; };
 		CD6FF19128FD4FFC0013266F /* maikefeng.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maikefeng.png; sourceTree = "<group>"; };
 		CD6FF19328FD593C0013266F /* tubiaoji_tupianshibie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tubiaoji_tupianshibie.png; sourceTree = "<group>"; };
+		CD932A93290635E800972053 /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +120,7 @@
 				CD63223128FE8182005771CD /* Foundation.framework in Frameworks */,
 				CD63222F28FE817B005771CD /* UIKit.framework in Frameworks */,
 				CD63222D28FE8173005771CD /* QuartzCore.framework in Frameworks */,
+				CD932A94290635E800972053 /* iflyMSC.framework in Frameworks */,
 				CD63222B28FE816A005771CD /* SystemConfiguration.framework in Frameworks */,
 				CD63222928FE8163005771CD /* Contacts.framework in Frameworks */,
 				CD63222728FE8156005771CD /* AudioToolbox.framework in Frameworks */,
@@ -130,7 +131,6 @@
 				CD63221D28FE811B005771CD /* libc++.tbd in Frameworks */,
 				CD63221B28FE810B005771CD /* libz.tbd in Frameworks */,
 				CD63221928FE8104005771CD /* CoreLocation.framework in Frameworks */,
-				CD63221728FE80F0005771CD /* iflyMSC.framework in Frameworks */,
 				B875544F4CB9AE796BBA7DC3 /* Pods_EnglishTool.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -188,7 +188,6 @@
 			children = (
 				CD6FF19328FD593C0013266F /* tubiaoji_tupianshibie.png */,
 				CD6FF19128FD4FFC0013266F /* maikefeng.png */,
-				CD63221628FE80F0005771CD /* iflyMSC.framework */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -197,6 +196,7 @@
 			isa = PBXGroup;
 			children = (
 				CD63221528FE80CD005771CD /* Resource */,
+				CD932A93290635E800972053 /* iflyMSC.framework */,
 				CD6FF17A28FCFB5F0013266F /* Home */,
 				CD6FF17B28FCFB6F0013266F /* Recoder */,
 				CD6FF17C28FCFB860013266F /* Setting */,
@@ -652,6 +652,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Resource",
+					"$(PROJECT_DIR)",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = EnglishTool/Info.plist;
@@ -690,6 +691,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Resource",
+					"$(PROJECT_DIR)",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = EnglishTool/Info.plist;
