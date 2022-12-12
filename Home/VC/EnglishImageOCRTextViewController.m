@@ -159,6 +159,7 @@
         NSString *Str = [EnglishHomeModel ImageWithText:data];
     }else{
         [SVProgressHUD showErrorWithStatus:@"请先传入图片"];
+        // zhegebuhaoshi1
         self.startShiBieBty.userInteractionEnabled = YES;
     }
   
